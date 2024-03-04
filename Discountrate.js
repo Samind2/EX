@@ -128,9 +128,9 @@ class DiscountRate {
 }
 
 const main = () => {
-  const customer1 = new Customer("Punsan", true, DiscountRate.SPREMIUM);
-  const customer2 = new Customer("Best", true, DiscountRate.SPREMIUM);
-  const visit1 = new Visit(customer1, "2024/02/13", 500, 500);
+  const customer1 = new Customer("Bell", true, DiscountRate.SPREMIUM);
+  const customer2 = new Customer("NJ", true, DiscountRate.SPREMIUM);
+  const visit1 = new Visit(customer1, "2024/02/13", 800, 400);
 
   console.log(visit1.toString());
 };
