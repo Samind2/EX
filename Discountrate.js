@@ -131,7 +131,9 @@ const main = () => {
   const customer1 = new Customer("Bell", true, DiscountRate.SPREMIUM);
   const customer2 = new Customer("NJ", true, DiscountRate.SPREMIUM);
   const visit1 = new Visit(customer1, "2024/02/13", 800, 400);
+  const visit2 = new Visit(customer2, "2024/02/28", 900, 500);
 
   console.log(visit1.toString());
+  console.log(visit2.toString());
 };
 main();
